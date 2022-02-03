@@ -211,6 +211,7 @@ transition: background-color 0.3s ease 0s;
 position: relative;
 
 }
+
 /******menu burger *******/
 .close-icon-menu,
 .icon-menu{
@@ -762,7 +763,10 @@ padding: 45px 0px;
     justify-content: center;
     align-items: center;
 }
-
+.block-text__button:hover {
+    background-color: #ec5863;
+    transition: 0.3s ease 0s;
+}
 
 @media (max-width:1087px) { 
    .health__column  {
